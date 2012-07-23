@@ -8,7 +8,13 @@ def base(request):
 	return render(request, 'base.html', {})
 
 def iletisim(request):
-	return render(request, 'contact.html', {})
+	return render(request, 'iletisim.html', {})
+
+def siparis(request):
+	return render(request, 'siparis.html', {})
 
 def index(request):
 	return render(request, 'index.html', {})
+
+def hakkimizda(request):
+	return render(request, 'hakkimizda.html', {})
